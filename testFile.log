@@ -1,6 +1,6 @@
 15:32:25.750 [main] INFO  --- Elenco catalogo ---
 15:32:25.759 [main] INFO  --- Rimozione di un elemento ---
-15:32:25.761 [main] INFO  Elemento rimossoLibro [ CodiceISBN = 3L, Titolo = Il signore degli Anelli, AnnoPublicazione = 2015, NumeroPagine = 400, Autore = J. R. R. Tolkien, Genere = Fantasy]
+15:32:25.761 [main] INFO  Elemento rimossoLibro [ CodiceISBN = 4L, Titolo = Il signore degli Anelli, AnnoPublicazione = 2015, NumeroPagine = 400, Autore = J. R. R. Tolkien, Genere = Fantasy]
 15:32:25.762 [main] INFO  --- Elenco catalogo ---
 15:32:25.762 [main] INFO  --- Ricerca di un elemento per ISBN ---
 15:32:25.763 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = MotorShow, AnnoPublicazione = 2006, NumeroPagine = 150, periodicità = SEMESTRALE]]
@@ -180,3 +180,219 @@
 16:26:26.607 [main] INFO  Elemento ricercato per anno pubblicazione[]
 16:26:26.607 [main] INFO  RICERCA ELEMENTI PER AUTORE
 16:26:26.608 [main] INFO  Elemento ricercato per Autore[]
+16:29:12.902 [main] INFO  ARCHIVIO
+16:29:12.913 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:29:12.915 [main] INFO  Elemento rimossoLibro [ CodiceISBN = 3L, Titolo = Il processo, AnnoPublicazione = 1925, NumeroPagine = 400, Autore = Franz Kafka, Genere = Romanzo]
+16:29:12.916 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:29:12.917 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = Vanity Fair, AnnoPublicazione = 2005, NumeroPagine = 200, periodicità = SEMESTRALE]]
+16:29:12.917 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:29:12.918 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:29:12.918 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:29:12.919 [main] INFO  Elemento ricercato per Autore[]
+16:29:41.656 [main] INFO  ARCHIVIO
+16:29:41.665 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:29:41.669 [main] INFO  Elemento rimossoLibro [ CodiceISBN = 3L, Titolo = Il processo, AnnoPublicazione = 1925, NumeroPagine = 400, Autore = Franz Kafka, Genere = Romanzo]
+16:29:41.669 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:29:41.670 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = Vanity Fair, AnnoPublicazione = 2005, NumeroPagine = 200, periodicità = SEMESTRALE]]
+16:29:41.670 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:29:41.672 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:29:41.672 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:29:41.673 [main] INFO  Elemento ricercato per Autore[]
+16:30:11.001 [main] INFO  ARCHIVIO
+16:30:11.010 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:30:11.013 [main] INFO  Elemento rimossoLibro [ CodiceISBN = 3L, Titolo = Il processo, AnnoPublicazione = 1925, NumeroPagine = 400, Autore = Franz Kafka, Genere = Romanzo]
+16:30:11.013 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:30:11.014 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = Vanity Fair, AnnoPublicazione = 2005, NumeroPagine = 200, periodicità = SEMESTRALE]]
+16:30:11.014 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:30:11.015 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:30:11.015 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:30:11.016 [main] INFO  Elemento ricercato per Autore[]
+16:30:17.323 [main] INFO  ARCHIVIO
+16:30:17.332 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:30:17.335 [main] INFO  Elemento rimossoLibro [ CodiceISBN = 3L, Titolo = Il processo, AnnoPublicazione = 1925, NumeroPagine = 400, Autore = Franz Kafka, Genere = Romanzo]
+16:30:17.335 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:30:17.336 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = Vanity Fair, AnnoPublicazione = 2005, NumeroPagine = 200, periodicità = SEMESTRALE]]
+16:30:17.336 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:30:17.338 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:30:17.338 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:30:17.338 [main] INFO  Elemento ricercato per Autore[]
+16:31:11.397 [main] INFO  ARCHIVIO
+16:31:11.406 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:31:11.408 [main] INFO  Elemento rimossoLibro [ CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo]
+16:31:11.409 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:31:11.409 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = Vanity Fair, AnnoPublicazione = 2005, NumeroPagine = 200, periodicità = SEMESTRALE]]
+16:31:11.409 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:31:11.410 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:31:11.410 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:31:11.410 [main] INFO  Elemento ricercato per Autore[]
+16:31:42.331 [main] INFO  ARCHIVIO
+16:31:42.341 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:31:42.343 [main] INFO  Elemento rimossoLibro  CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:31:42.344 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:31:42.344 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = Vanity Fair, AnnoPublicazione = 2005, NumeroPagine = 200, periodicità = SEMESTRALE]]
+16:31:42.345 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:31:42.347 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:31:42.347 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:31:42.348 [main] INFO  Elemento ricercato per Autore[]
+16:31:51.785 [main] INFO  ARCHIVIO
+16:31:51.795 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:31:51.798 [main] INFO  Elemento rimossoLibro -- CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:31:51.798 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:31:51.800 [main] INFO  Elemento ricercato per codice ISBN[Rivista [ CodiceISBN = 3R, Titolo = Vanity Fair, AnnoPublicazione = 2005, NumeroPagine = 200, periodicità = SEMESTRALE]]
+16:31:51.800 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:31:51.801 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:31:51.801 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:31:51.802 [main] INFO  Elemento ricercato per Autore[]
+16:32:52.058 [main] INFO  ARCHIVIO
+16:32:52.071 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:32:52.073 [main] INFO  Elemento rimossoLibro -- CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:32:52.073 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:32:52.074 [main] INFO  Elemento ricercato per codice ISBN[Rivista-- CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:32:52.074 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:32:52.075 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:32:52.075 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:32:52.077 [main] INFO  Elemento ricercato per Autore[]
+16:33:21.625 [main] INFO  ARCHIVIO
+16:33:21.635 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:33:21.637 [main] INFO  Elemento rimossoLibro -- CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:33:21.638 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:33:21.638 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)-- CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:33:21.638 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:33:21.639 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:33:21.639 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:33:21.640 [main] INFO  Elemento ricercato per Autore[]
+16:33:43.336 [main] INFO  ARCHIVIO
+16:33:43.345 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:33:43.348 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:33:43.348 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:33:43.349 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:33:43.349 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:33:43.350 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:33:43.350 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:33:43.350 [main] INFO  Elemento ricercato per Autore[]
+16:35:07.266 [main] INFO  ARCHIVIO
+16:35:07.275 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:35:07.277 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:35:07.278 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:35:07.278 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:35:07.279 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:35:07.280 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:35:07.280 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:35:07.281 [main] INFO  Elemento ricercato per Autore[]
+16:35:13.377 [main] INFO  ARCHIVIO
+16:35:13.386 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:35:13.388 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:35:13.388 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:35:13.389 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:35:13.389 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:35:13.391 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:35:13.391 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:35:13.391 [main] INFO  Elemento ricercato per Autore[]
+16:35:19.356 [main] INFO  ARCHIVIO
+16:35:19.366 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:35:19.368 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:35:19.369 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:35:19.369 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:35:19.369 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:35:19.371 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:35:19.371 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:35:19.372 [main] INFO  Elemento ricercato per Autore[]
+16:35:49.795 [main] INFO  ARCHIVIO
+16:35:49.806 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:35:49.808 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:35:49.808 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:35:49.809 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:35:49.809 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:35:49.810 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:35:49.810 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:35:49.811 [main] INFO  Elemento ricercato per Autore[]
+16:35:55.033 [main] INFO  ARCHIVIO
+16:35:55.042 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:35:55.045 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:35:55.045 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:35:55.046 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:35:55.046 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:35:55.047 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:35:55.047 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:35:55.047 [main] INFO  Elemento ricercato per Autore[]
+16:35:59.730 [main] INFO  ARCHIVIO
+16:35:59.739 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:35:59.742 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:35:59.742 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:35:59.742 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:35:59.743 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:35:59.745 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:35:59.745 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:35:59.745 [main] INFO  Elemento ricercato per Autore[]
+16:36:18.476 [main] INFO  ARCHIVIO
+16:36:18.485 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:36:18.487 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:36:18.488 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:36:18.488 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:36:18.488 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:36:18.490 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:36:18.490 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:36:18.491 [main] INFO  Elemento ricercato per Autore[]
+16:36:51.588 [main] INFO  ARCHIVIO
+16:36:51.601 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:36:51.604 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:36:51.604 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:36:51.605 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:36:51.605 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:36:51.606 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:36:51.606 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:36:51.607 [main] INFO  Elemento ricercato per Autore[]
+16:48:27.904 [main] INFO  ARCHIVIO
+16:48:27.916 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:48:27.918 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:48:27.919 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:48:27.919 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:48:27.920 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:48:27.922 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:48:27.922 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:48:27.923 [main] INFO  Elemento ricercato per Autore[]
+16:50:36.619 [main] INFO  ARCHIVIO
+16:50:36.629 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:50:36.632 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:50:36.632 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:50:36.632 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:50:36.632 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:50:36.633 [main] INFO  Elemento ricercato per anno pubblicazione[]
+16:50:36.633 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:50:36.634 [main] INFO  Elemento ricercato per Autore[]
+16:52:19.038 [main] INFO  ARCHIVIO
+16:52:19.048 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:52:19.050 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:52:19.051 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:52:19.051 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:52:19.052 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:52:19.053 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:52:19.053 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:52:19.054 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: 5L, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
+16:56:21.303 [main] INFO  ARCHIVIO
+16:56:21.314 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:56:21.316 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:56:21.317 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:56:21.317 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:56:21.317 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:56:21.318 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:56:21.318 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:56:21.320 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: 5L, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
+16:57:57.581 [main] INFO  ARCHIVIO
+16:57:57.590 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+16:57:57.592 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+16:57:57.592 [main] INFO  RICERCA ELEMENTI CON ISBN
+16:57:57.593 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:57:57.593 [main] INFO  RICERCA ELEMENTI PER ANNO
+16:57:57.594 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+16:57:57.594 [main] INFO  RICERCA ELEMENTI PER AUTORE
+16:57:57.595 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: 5L, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
+17:04:13.166 [main] INFO  ARCHIVIO
+17:04:13.176 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+17:04:13.179 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+17:04:13.179 [main] INFO  RICERCA ELEMENTI CON ISBN
+17:04:13.179 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:04:13.180 [main] INFO  RICERCA ELEMENTI PER ANNO
+17:04:13.181 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:04:13.182 [main] INFO  RICERCA ELEMENTI PER AUTORE
+17:04:13.182 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: 5L, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]

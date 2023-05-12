@@ -24,7 +24,7 @@ public class MainProject {
 		catalogo.add(new Libro("4L", "Il piccolo principe", 1943, 500, "Antoine Saint-Exupery", "Racconto"));
 		catalogo.add(new Libro("5L", "Furore", 1939, 200, "John Steinbeck", "Romanzo"));
 
-		catalogo.add(new Rivista("1R", "Focus", 2002, 120, Periodo.SETTIMANALE));
+		catalogo.add(new Rivista("1R", "Focus", 2010, 120, Periodo.SETTIMANALE));
 		catalogo.add(new Rivista("2R", "NYMagazine", 2006, 150, Periodo.MENSILE));
 		catalogo.add(new Rivista("3R", "Vanity Fair", 2005, 200, Periodo.SEMESTRALE));
 		catalogo.add(new Rivista("4R", "Vogue", 2010, 100, Periodo.MENSILE));
@@ -38,15 +38,15 @@ public class MainProject {
 		log.info("Elemento rimosso" + elementoRimosso);
 
 		log.info("RICERCA ELEMENTI CON ISBN");
-		String ricercaPerIsbn = findByIsbn("3R").toString();
+		String ricercaPerIsbn = cercaISBN("3R").toString();
 		log.info("Elemento ricercato per codice ISBN" + ricercaPerIsbn);
 
 		log.info("RICERCA ELEMENTI PER ANNO");
-		String ricercaPerAnnoPub = findByPubYear(2015).toString();
+		String ricercaPerAnnoPub = cercaAnno(2005).toString();
 		log.info("Elemento ricercato per anno pubblicazione" + ricercaPerAnnoPub);
 
 		log.info("RICERCA ELEMENTI PER AUTORE");
-		String ricercaPerAutore = findByAuthor("Sun Tzu").toString();
+		String ricercaPerAutore = cercaAutore("John Steinbeck").toString();
 		log.info("Elemento ricercato per Autore" + ricercaPerAutore);
 
 	}
@@ -65,15 +65,15 @@ public class MainProject {
 
 	}
 
-	public static List<Catalogo> findByIsbn(String ISBN) {
+	public static List<Catalogo> cercaISBN(String ISBN) {
 		return catalogo.stream().filter(e -> e.getCodiceISBN().equals(ISBN)).collect(Collectors.toList());
 	}
 
-	public static List<Catalogo> findByPubYear(int year) {
+	public static List<Catalogo> cercaAnno(int year) {
 		return catalogo.stream().filter(e -> e.getAnnoPublicazione() == (year)).collect(Collectors.toList());
 	}
 
-	public static List<Catalogo> findByAuthor(String autore) {
+	public static List<Catalogo> cercaAutore(String autore) {
 		return catalogo.stream().filter(e -> e instanceof Libro && ((Libro) e).getAutore().equals(autore))
 				.collect(Collectors.toList());
 	}
@@ -82,5 +82,7 @@ public class MainProject {
 		FileUtils.writeStringToFile(file, catalogo.toString(), "UTF-8", true);
 		System.out.println("Testo scritto su file");
 	}
+	
 
 }
+

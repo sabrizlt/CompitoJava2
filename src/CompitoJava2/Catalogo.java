@@ -1,63 +1,69 @@
 package CompitoJava2;
 
+import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public abstract class  Catalogo {
-	
-	private String codiceISBN;
-	private String titolo;
-	private int annoPublicazione;
-	private int numeroPagine;
-	static public Logger log = LoggerFactory.getLogger(Catalogo.class);
-	
-	public Catalogo(String codiceISBN, String titolo, int annoPublicazione, int numeroPagine) {
-		super();
-		this.codiceISBN = codiceISBN;
-		this.titolo = titolo;
-		this.annoPublicazione = annoPublicazione;
-		this.numeroPagine = numeroPagine;
-	}
+import java.io.File;
+import java.io.IOException;
 
-	public String getCodiceISBN() {
-		return codiceISBN;
-	}
+public abstract class Catalogo {
 
-	public void setCodiceISBN(String codiceISBN) {
-		this.codiceISBN = codiceISBN;
-	}
+    private String codiceISBN;
+    private String titolo;
+    private int annoPublicazione;
+    private int numeroPagine;
+    static public Logger log = LoggerFactory.getLogger(Catalogo.class);
 
-	public String getTitolo() {
-		return titolo;
-	}
+    public Catalogo(String codiceISBN, String titolo, int annoPublicazione, int numeroPagine) {
+        super();
+        this.codiceISBN = codiceISBN;
+        this.titolo = titolo;
+        this.annoPublicazione = annoPublicazione;
+        this.numeroPagine = numeroPagine;
+    }
 
-	public void setTitolo(String titolo) {
-		this.titolo = titolo;
-	}
+    public String getCodiceISBN() {
+        return codiceISBN;
+    }
 
-	public int getAnnoPublicazione() {
-		return annoPublicazione;
-	}
+    public void setCodiceISBN(String codiceISBN) {
+        this.codiceISBN = codiceISBN;
+    }
 
-	public void setAnnoPublicazione(int annoPublicazione) {
-		this.annoPublicazione = annoPublicazione;
-	}
+    public String getTitolo() {
+        return titolo;
+    }
 
-	public int getNumeroPagine() {
-		return numeroPagine;
-	}
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
+    }
 
-	public void setNumeroPagine(int numeroPagine) {
-		this.numeroPagine = numeroPagine;
-	}
+    public int getAnnoPublicazione() {
+        return annoPublicazione;
+    }
 
-	@Override
-	public String toString() {
-		return "Catalogo [codiceISBN = " + codiceISBN + ", titolo = " + titolo + ", annoPublicazione = " + annoPublicazione
-				+ ", numeroPagine = " + numeroPagine + "]";
-	}
-	
-	
-	
+    public void setAnnoPublicazione(int annoPublicazione) {
+        this.annoPublicazione = annoPublicazione;
+    }
 
+    public int getNumeroPagine() {
+        return numeroPagine;
+    }
+
+    public void setNumeroPagine(int numeroPagine) {
+        this.numeroPagine = numeroPagine;
+    }
+
+    @Override
+    public String toString() {
+        return "[codiceISBN: " + codiceISBN + ", titolo: " + titolo + ", annoPublicazione: " + annoPublicazione
+                + ", numeroPagine: " + numeroPagine + "]";
+    }
+
+    public void writeToFile(String filePath) throws IOException {
+        String data = toString();
+        FileUtils.writeStringToFile(new File(filePath), data, "UTF-8", true);
+        log.info("Dati scritti su file: " + filePath);
+    }
 }
