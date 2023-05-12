@@ -3,7 +3,6 @@ package CompitoJava2;
 import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.File;
 import java.io.IOException;
 
@@ -57,8 +56,8 @@ public abstract class Catalogo {
 
     @Override
     public String toString() {
-        return "[codiceISBN: " + codiceISBN + ", titolo: " + titolo + ", annoPublicazione: " + annoPublicazione
-                + ", numeroPagine: " + numeroPagine + "]";
+        return "[ISBN: " + codiceISBN + ", TITOLO: " + titolo + ", ANNO: " + annoPublicazione
+                + ", PAGINE: " + numeroPagine + "]";
     }
 
     public void writeToFile(String filePath) throws IOException {

@@ -423,3 +423,21 @@
 17:12:50.778 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: R9012A, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
 17:12:50.778 [main] INFO  RICERCA ELEMENTI PER AUTORE
 17:12:50.778 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: L7890O, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
+17:19:42.095 [main] INFO  ARCHIVIO
+17:19:42.105 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+17:19:42.108 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: L9012O, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 350, Autore: Franz Kafka, Genere: Romanzo
+17:19:42.108 [main] INFO  RICERCA ELEMENTI CON ISBN
+17:19:42.109 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: R7890A, Titolo: Giallo Zafferano, AnnoPublicazione: 2012, NumeroPagine: 50, periodicità: SETTIMANALE]
+17:19:42.109 [main] INFO  RICERCA ELEMENTI PER ANNO
+17:19:42.110 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: R9012A, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:19:42.111 [main] INFO  RICERCA ELEMENTI PER AUTORE
+17:19:42.111 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: L7890O, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 550, Autore: John Steinbeck, Genere: Romanzo]
+17:20:33.937 [main] INFO  ARCHIVIO
+17:20:33.947 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+17:20:33.949 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: L9012O, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 350, Autore: Franz Kafka, Genere: Romanzo
+17:20:33.949 [main] INFO  RICERCA ELEMENTI CON ISBN
+17:20:33.950 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: R7890A, Titolo: Giallo Zafferano, AnnoPublicazione: 2012, NumeroPagine: 50, periodicità: SETTIMANALE]
+17:20:33.950 [main] INFO  RICERCA ELEMENTI PER ANNO
+17:20:33.952 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: R9012A, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:20:33.952 [main] INFO  RICERCA ELEMENTI PER AUTORE
+17:20:33.952 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: L7890O, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 550, Autore: John Steinbeck, Genere: Romanzo]
