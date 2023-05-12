@@ -396,3 +396,30 @@
 17:04:13.181 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
 17:04:13.182 [main] INFO  RICERCA ELEMENTI PER AUTORE
 17:04:13.182 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: 5L, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
+17:07:10.480 [main] INFO  ARCHIVIO
+17:07:10.490 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+17:07:10.492 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: 3L, Titolo: Il processo, AnnoPublicazione: 1925, NumeroPagine: 400, Autore: Franz Kafka, Genere: Romanzo
+17:07:10.493 [main] INFO  RICERCA ELEMENTI CON ISBN
+17:07:10.493 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:07:10.493 [main] INFO  RICERCA ELEMENTI PER ANNO
+17:07:10.495 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: 3R, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:07:10.495 [main] INFO  RICERCA ELEMENTI PER AUTORE
+17:07:10.495 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: 5L, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
+17:11:27.861 [main] INFO  ARCHIVIO
+17:11:27.870 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+17:11:27.872 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: L3456O, Titolo: Il piccolo principe, AnnoPublicazione: 1943, NumeroPagine: 500, Autore: Antoine Saint-Exupery, Genere: Racconto
+17:11:27.872 [main] INFO  RICERCA ELEMENTI CON ISBN
+17:11:27.873 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: R1234A, Titolo: Focus, AnnoPublicazione: 2010, NumeroPagine: 120, periodicità: SETTIMANALE]
+17:11:27.873 [main] INFO  RICERCA ELEMENTI PER ANNO
+17:11:27.874 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: R9012A, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:11:27.874 [main] INFO  RICERCA ELEMENTI PER AUTORE
+17:11:27.875 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: L7890O, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
+17:12:50.763 [main] INFO  ARCHIVIO
+17:12:50.774 [main] INFO  RIMOZIONE ELEMENTI CON ISBN
+17:12:50.777 [main] INFO  Elemento rimosso(Libro)= CodiceISBN: L3456O, Titolo: Il piccolo principe, AnnoPublicazione: 1943, NumeroPagine: 500, Autore: Antoine Saint-Exupery, Genere: Racconto
+17:12:50.777 [main] INFO  RICERCA ELEMENTI CON ISBN
+17:12:50.777 [main] INFO  Elemento ricercato per codice ISBN[(Rivista)= CodiceISBN: R1234A, Titolo: Focus, AnnoPublicazione: 2010, NumeroPagine: 120, periodicità: SETTIMANALE]
+17:12:50.777 [main] INFO  RICERCA ELEMENTI PER ANNO
+17:12:50.778 [main] INFO  Elemento ricercato per anno pubblicazione[(Rivista)= CodiceISBN: R9012A, Titolo: Vanity Fair, AnnoPublicazione: 2005, NumeroPagine: 200, periodicità: SEMESTRALE]
+17:12:50.778 [main] INFO  RICERCA ELEMENTI PER AUTORE
+17:12:50.778 [main] INFO  Elemento ricercato per Autore[(Libro)= CodiceISBN: L7890O, Titolo: Furore, AnnoPublicazione: 1939, NumeroPagine: 200, Autore: John Steinbeck, Genere: Romanzo]
